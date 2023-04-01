@@ -5,7 +5,7 @@ const checkIn = async (cookie) => {
         method: 'post',
         url: 'https://glados.rocks/api/user/checkin',
         data: {
-            token: "glados_network"
+            token: "glados.network"
         },
         headers: {
           cookie
