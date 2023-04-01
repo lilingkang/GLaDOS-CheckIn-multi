@@ -23,5 +23,5 @@ jobs:
       - name: CheckIn
         run: node checkin.js
         env:
-          SCKEY: ${{ secrets.SCKEY }}
+          # SCKEY: ${{ secrets.SCKEY }}
           COOKIES: ${{ secrets.COOKIES }}
